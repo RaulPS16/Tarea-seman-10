@@ -1,5 +1,5 @@
 .centraForm{
-    margin-top: 40%;
+    margin-top: 30%;
     
 }
 
@@ -9,14 +9,14 @@
     left: 1em;
 }
 
-@media only screen and (min-width: 990px) {
-    .container{
-        width: 70%;
+@media only screen and (max-width: 1024px) {
+    .btn{
+        color: red;
     }
 }
 
-@media only screen and (min-width: 1024px) {
-    .centraForm{
-        width: 70%;
+@media only screen and (max-width: 990px) {
+    .btn{
+        color: black;
     }
 }
